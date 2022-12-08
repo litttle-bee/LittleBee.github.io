@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>同途旅行</title>
+ <style type="text/css">
+   hr{
+       margin:20px 20px 20px 0px;
+
+
+   }
+   table td{
+    border-color:#0a0c0b;
+    padding:1px;
+    margin:5px;
+  
+   }
+
+  #scrolltext{
+      letter-spacing: 12px;  /*字符间设置间距*/
+      margin: -3px;
+     
+  }
+
+ input[type="text"]{
+       background-color:rgba(200,175,32,0.3);
+  }
+  .title{
+    background-color:rgba(132,212,122,0.3);
+    font-family:"仿宋";
+    font-size: 18px;
+
+  }
+  
+  #th{
+    border-radius: 30px;
+    background:url("https://tse2-mm.cn.bing.net/th/id/OIP-C.6nWKPso-UBJg_QRfh01_tQHaEK?w=324&h=182&c=7&r=0&o=5&dpr=1.38&pid=1.7");
+      font-family: "楷体";
+      border-style: none;
+      border-color: white;
+  }
+
+
+  #tablebg{
+    border-left-color: rgba(16,32,143,0.2);
+     border-top-color: rgba(16,32,143,0.3);
+     border-collapse: collapse;
+  }
+  
+
+   </style>
+   <script language="javascript">
+   function jc(){
+          var f=form2.user1.value;
+          var s=form2.user2.value;
+          if(f!=s)
+            alert("两次的密码不一致,请重新输入");
+       
+          
+          else
+            form2.submit();
+
+   }
+   </script>
+</head>
+<body>  <!--  color: rgba(66,232,143,0.3); -->
+
+<img src="https://tse4-mm.cn.bing.net/th/id/OIP-C.vlUdV-YEgwy8PQHZWn79lAHaEK?w=321&h=180&c=7&r=0&o=5&dpr=1.38&pid=1.7" width="280px" height="100px" align="right"/>  
+<em> <h1><font color="#bac24">同</font><font color="#14f03d">途</font><font color="#210eae">旅</font><font color="#0eae99">行</font></h1></em> <img src="https://www.bing.com/th/id/OGC.1427140a1c4ca0852d4878f17cc7e74e?pid=1.7&rurl=https%3a%2f%2fimg.sj33.cn%2fuploads%2fallimg%2f201602%2f0925391431-0.gif&ehk=dNhfFl4Uu264D1jqhkn%2bSPUXoBwRf4byWnEpFKwoI9E%3d" align="left" width="90px"/>
+<hr width="320px" color="#210eae" align="left"/>
+<hr width="460px" color="bac24" align="left"/>
+<hr size="4px" width="100%" color="#dfj427"/>
+
+
+<marquee direction="left" behavior="scroll" scrollmount="15" loop="" >
+<h3 id="scrolltext" ><font color="blue" face="楷体">请仔细填写各项信息,如有疑问可联系网站管理员!</font></h3>
+</marquee>
+ 
+
+
+<form name="form2" method="post"  action="pages\login.htm">
+<table border="18" width="10%" height="80%" align="center" id="tablebg">
+<tr> </tr>
+  <td colspan="2" align="center" id="th" ><h1 style="color:#0eae99 "  >会员注册表</h1></td> <tr>
+  <td class="title">用户名</td><td><input type="text" name="user" required="true"/></td>  <tr>
+  <td name="td1" class="title">密码</td><td><input type="password" name="user1" required="true"/></td> <tr>
+  <td  name="td2" class="title">确认密码</td><td><input type="password" name="user2" /></td> <tr>
+  <td class="title">性别</td><td><input type="radio" name="user" value="nan" checked />男&nbsp;&nbsp; <input type="radio" name="user" value="nv" />女</td>   <tr>
+  <td class="title">Email</td> <td><input type="email" name="user"/></td>    <tr>
+  <td class="title">Phone</td><td><input type="text" name="user"/></td>    <tr>
+  <td class="title">年龄</td><td><input type="text" name="user"/></td>   <tr>
+  <td class="title"> 专业</td><td><input type="text" name="user" value="maths"/></td>   <tr>
+  <td class="title">出生日期</td> <td><input type="date" name="user"/></td><tr>
+  <td class="title">周数</td> <td><input type="week" name="user"/></td> <tr>
+  <td class="title">您选择的颜色</td> <td><input type="color" name="user" /></td> <tr>
+  <td class="title">英语等级</td> <td id="range1" ><input type="range" name="user" step="1" value="0"/>4级</td>  <tr>
+  <td class="title">爱好</td> <td><input type="checkbox" name="user" />户外 <input type="checkbox" name="user" />音乐<input type="checkbox" name="user" />购物<input type="checkbox" name="user" />其他</td>  <tr>
+  <td class="title">所在地</td> <td><select> <option>北京</option>
+                          <option>上海</option> 
+                          <option>广东</option> 
+                          <option>武汉</option>
+                          </select> </td><tr>
+  <td class="title">联系电话</td> <td><input type="number" name="user"/></td>  <tr>
+  <td class="title">备注</td> <td><textarea name="mytext" rows="5" cols="100"></textarea></td>  <tr>
+  <td class="title"><input type="button" onclick="jc()" value="提交"/> </td>  <td><input type="reset"/> </td>   <tr>
+  <td class="title">请多重选择文件：</td> <td><input type="file" name="wj"/> </td>    <tr>
+  </tr>
+  </tr>
+  </tr>
+  </tr>
+  </tr>
+</tr>
+</tr>
+</tr>
+</tr>
+</tr>
+</tr>
+</tr>
+</tr>
+</tr>
+</tr>
+</tr>
+</tr>
+</tr>
+</tr>
+</table>
+</form>
+</body>
+</html>
+  
